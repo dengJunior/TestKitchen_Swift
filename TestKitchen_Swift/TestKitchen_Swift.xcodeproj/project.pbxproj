@@ -1,2370 +1,1202 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>23CECC473117C0315DCAF5A7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2FD51E35BA06CB80D337B44</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>29EAF957460DA30219112BBB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>2EA4F22F66A3486DA610D910</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods/Pods.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D461D4F0FF800BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4E236D511D4F0FF800BD6DB0</string>
-				<string>4E236D661D4F0FF800BD6DB0</string>
-				<string>4E236D711D4F0FF900BD6DB0</string>
-				<string>4E236D501D4F0FF800BD6DB0</string>
-				<string>A2F1B2D85567A3C96BE5F94B</string>
-				<string>728C78D74857B8C225E41239</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D471D4F0FF800BD6DB0</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0730</string>
-				<key>LastUpgradeCheck</key>
-				<string>0730</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>apple</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>4E236D4E1D4F0FF800BD6DB0</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3.1</string>
-					</dict>
-					<key>4E236D621D4F0FF800BD6DB0</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3.1</string>
-						<key>TestTargetID</key>
-						<string>4E236D4E1D4F0FF800BD6DB0</string>
-					</dict>
-					<key>4E236D6D1D4F0FF900BD6DB0</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3.1</string>
-						<key>TestTargetID</key>
-						<string>4E236D4E1D4F0FF800BD6DB0</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>4E236D4A1D4F0FF800BD6DB0</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>4E236D461D4F0FF800BD6DB0</string>
-			<key>productRefGroup</key>
-			<string>4E236D501D4F0FF800BD6DB0</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>4E236D4E1D4F0FF800BD6DB0</string>
-				<string>4E236D621D4F0FF800BD6DB0</string>
-				<string>4E236D6D1D4F0FF900BD6DB0</string>
-			</array>
-		</dict>
-		<key>4E236D4A1D4F0FF800BD6DB0</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>4E236D751D4F0FF900BD6DB0</string>
-				<string>4E236D761D4F0FF900BD6DB0</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>4E236D4B1D4F0FF800BD6DB0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4E236E7F1D4F485500BD6DB0</string>
-				<string>4E236E811D4F486000BD6DB0</string>
-				<string>4E236E751D4F47EF00BD6DB0</string>
-				<string>4E236E771D4F480C00BD6DB0</string>
-				<string>4E236DB91D4F134C00BD6DB0</string>
-				<string>4E236D551D4F0FF800BD6DB0</string>
-				<string>4E236D531D4F0FF800BD6DB0</string>
-				<string>4E236E7B1D4F483B00BD6DB0</string>
-				<string>4E236DB81D4F134C00BD6DB0</string>
-				<string>4E236E7D1D4F484800BD6DB0</string>
-				<string>4E236E791D4F482800BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4E236D4C1D4F0FF800BD6DB0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>23CECC473117C0315DCAF5A7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4E236D4D1D4F0FF800BD6DB0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4E236EA91D4F4E7B00BD6DB0</string>
-				<string>4E236EB51D4F4E7B00BD6DB0</string>
-				<string>4E236EAD1D4F4E7B00BD6DB0</string>
-				<string>4E236EA01D4F4E7B00BD6DB0</string>
-				<string>4E236D5D1D4F0FF800BD6DB0</string>
-				<string>4E236E9D1D4F4E7B00BD6DB0</string>
-				<string>4E236EA41D4F4E7B00BD6DB0</string>
-				<string>4E236EAF1D4F4E7B00BD6DB0</string>
-				<string>4E236EAE1D4F4E7B00BD6DB0</string>
-				<string>4E236EB11D4F4E7B00BD6DB0</string>
-				<string>4E236EB31D4F4E7B00BD6DB0</string>
-				<string>4E236D5A1D4F0FF800BD6DB0</string>
-				<string>4E236EA31D4F4E7B00BD6DB0</string>
-				<string>4E236EAB1D4F4E7B00BD6DB0</string>
-				<string>4E236EB01D4F4E7B00BD6DB0</string>
-				<string>4E236EAC1D4F4E7B00BD6DB0</string>
-				<string>4E236EAA1D4F4E7B00BD6DB0</string>
-				<string>4E236EB41D4F4E7B00BD6DB0</string>
-				<string>4E236E9E1D4F4E7B00BD6DB0</string>
-				<string>4E236EA81D4F4E7B00BD6DB0</string>
-				<string>4E236E9F1D4F4E7B00BD6DB0</string>
-				<string>4E236EA21D4F4E7B00BD6DB0</string>
-				<string>4E236EA51D4F4E7B00BD6DB0</string>
-				<string>4E236EA61D4F4E7B00BD6DB0</string>
-				<string>4E236EA71D4F4E7B00BD6DB0</string>
-				<string>4E236D811D4F103600BD6DB0</string>
-				<string>4E236EA11D4F4E7B00BD6DB0</string>
-				<string>4E236D581D4F0FF800BD6DB0</string>
-				<string>4E236EB21D4F4E7B00BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4E236D4E1D4F0FF800BD6DB0</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>4E236D771D4F0FF900BD6DB0</string>
-			<key>buildPhases</key>
-			<array>
-				<string>29EAF957460DA30219112BBB</string>
-				<string>4E236D4B1D4F0FF800BD6DB0</string>
-				<string>4E236D4C1D4F0FF800BD6DB0</string>
-				<string>4E236D4D1D4F0FF800BD6DB0</string>
-				<string>63B09EE14B6985B7C8DBA62F</string>
-				<string>5C32A5CAE630ED9FD3F0E20B</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>TestKitchen_Swift</string>
-			<key>productName</key>
-			<string>TestKitchen_Swift</string>
-			<key>productReference</key>
-			<string>4E236D4F1D4F0FF800BD6DB0</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>4E236D4F1D4F0FF800BD6DB0</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>TestKitchen_Swift.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>4E236D501D4F0FF800BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4E236D4F1D4F0FF800BD6DB0</string>
-				<string>4E236D631D4F0FF800BD6DB0</string>
-				<string>4E236D6E1D4F0FF900BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D511D4F0FF800BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4E236D971D4F134C00BD6DB0</string>
-				<string>4E236D8A1D4F125A00BD6DB0</string>
-				<string>4E236D921D4F125A00BD6DB0</string>
-				<string>4E236D521D4F0FF800BD6DB0</string>
-				<string>4E236D541D4F0FF800BD6DB0</string>
-				<string>4E236D561D4F0FF800BD6DB0</string>
-				<string>4E236D591D4F0FF800BD6DB0</string>
-				<string>4E236D5B1D4F0FF800BD6DB0</string>
-				<string>4E236D5E1D4F0FF800BD6DB0</string>
-				<string>4E236D801D4F103600BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>TestKitchen_Swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D521D4F0FF800BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>AppDelegate.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D531D4F0FF800BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236D521D4F0FF800BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236D541D4F0FF800BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D551D4F0FF800BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236D541D4F0FF800BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236D561D4F0FF800BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4E236D571D4F0FF800BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D571D4F0FF800BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D581D4F0FF800BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236D561D4F0FF800BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236D591D4F0FF800BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D5A1D4F0FF800BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236D591D4F0FF800BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236D5B1D4F0FF800BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4E236D5C1D4F0FF800BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D5C1D4F0FF800BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D5D1D4F0FF800BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236D5B1D4F0FF800BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236D5E1D4F0FF800BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D5F1D4F0FF800BD6DB0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4E236D681D4F0FF800BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4E236D601D4F0FF800BD6DB0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4E236D611D4F0FF800BD6DB0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4E236D621D4F0FF800BD6DB0</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>4E236D7A1D4F0FF900BD6DB0</string>
-			<key>buildPhases</key>
-			<array>
-				<string>4E236D5F1D4F0FF800BD6DB0</string>
-				<string>4E236D601D4F0FF800BD6DB0</string>
-				<string>4E236D611D4F0FF800BD6DB0</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>4E236D651D4F0FF800BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>TestKitchen_SwiftTests</string>
-			<key>productName</key>
-			<string>TestKitchen_SwiftTests</string>
-			<key>productReference</key>
-			<string>4E236D631D4F0FF800BD6DB0</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>4E236D631D4F0FF800BD6DB0</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>TestKitchen_SwiftTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>4E236D641D4F0FF800BD6DB0</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>4E236D471D4F0FF800BD6DB0</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>4E236D4E1D4F0FF800BD6DB0</string>
-			<key>remoteInfo</key>
-			<string>TestKitchen_Swift</string>
-		</dict>
-		<key>4E236D651D4F0FF800BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>4E236D4E1D4F0FF800BD6DB0</string>
-			<key>targetProxy</key>
-			<string>4E236D641D4F0FF800BD6DB0</string>
-		</dict>
-		<key>4E236D661D4F0FF800BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4E236D671D4F0FF800BD6DB0</string>
-				<string>4E236D691D4F0FF900BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>TestKitchen_SwiftTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D671D4F0FF800BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>TestKitchen_SwiftTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D681D4F0FF800BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236D671D4F0FF800BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236D691D4F0FF900BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D6A1D4F0FF900BD6DB0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4E236D731D4F0FF900BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4E236D6B1D4F0FF900BD6DB0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4E236D6C1D4F0FF900BD6DB0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4E236D6D1D4F0FF900BD6DB0</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>4E236D7D1D4F0FF900BD6DB0</string>
-			<key>buildPhases</key>
-			<array>
-				<string>4E236D6A1D4F0FF900BD6DB0</string>
-				<string>4E236D6B1D4F0FF900BD6DB0</string>
-				<string>4E236D6C1D4F0FF900BD6DB0</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>4E236D701D4F0FF900BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>TestKitchen_SwiftUITests</string>
-			<key>productName</key>
-			<string>TestKitchen_SwiftUITests</string>
-			<key>productReference</key>
-			<string>4E236D6E1D4F0FF900BD6DB0</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.ui-testing</string>
-		</dict>
-		<key>4E236D6E1D4F0FF900BD6DB0</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>TestKitchen_SwiftUITests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>4E236D6F1D4F0FF900BD6DB0</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>4E236D471D4F0FF800BD6DB0</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>4E236D4E1D4F0FF800BD6DB0</string>
-			<key>remoteInfo</key>
-			<string>TestKitchen_Swift</string>
-		</dict>
-		<key>4E236D701D4F0FF900BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>4E236D4E1D4F0FF800BD6DB0</string>
-			<key>targetProxy</key>
-			<string>4E236D6F1D4F0FF900BD6DB0</string>
-		</dict>
-		<key>4E236D711D4F0FF900BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4E236D721D4F0FF900BD6DB0</string>
-				<string>4E236D741D4F0FF900BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>TestKitchen_SwiftUITests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D721D4F0FF900BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>TestKitchen_SwiftUITests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D731D4F0FF900BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236D721D4F0FF900BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236D741D4F0FF900BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D751D4F0FF900BD6DB0</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>4E236D761D4F0FF900BD6DB0</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>4E236D771D4F0FF900BD6DB0</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>4E236D781D4F0FF900BD6DB0</string>
-				<string>4E236D791D4F0FF900BD6DB0</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>4E236D781D4F0FF900BD6DB0</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>CCF162A46D75E8E75C690279</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>TestKitchen_Swift/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.1606.TestKitchen-Swift</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>4E236D791D4F0FF900BD6DB0</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2EA4F22F66A3486DA610D910</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>TestKitchen_Swift/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.1606.TestKitchen-Swift</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>4E236D7A1D4F0FF900BD6DB0</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>4E236D7B1D4F0FF900BD6DB0</string>
-				<string>4E236D7C1D4F0FF900BD6DB0</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>4E236D7B1D4F0FF900BD6DB0</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>TestKitchen_SwiftTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.1606.TestKitchen-SwiftTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/TestKitchen_Swift.app/TestKitchen_Swift</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>4E236D7C1D4F0FF900BD6DB0</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>TestKitchen_SwiftTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.1606.TestKitchen-SwiftTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/TestKitchen_Swift.app/TestKitchen_Swift</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>4E236D7D1D4F0FF900BD6DB0</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>4E236D7E1D4F0FF900BD6DB0</string>
-				<string>4E236D7F1D4F0FF900BD6DB0</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>4E236D7E1D4F0FF900BD6DB0</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>TestKitchen_SwiftUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.1606.TestKitchen-SwiftUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>TestKitchen_Swift</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>4E236D7F1D4F0FF900BD6DB0</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>TestKitchen_SwiftUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.1606.TestKitchen-SwiftUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>TestKitchen_Swift</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>4E236D801D4F103600BD6DB0</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.rtf</string>
-			<key>path</key>
-			<string>ReadMe.rtf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D811D4F103600BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236D801D4F103600BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236D8A1D4F125A00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4E236D8B1D4F125A00BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D8B1D4F125A00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4E236D8C1D4F125A00BD6DB0</string>
-				<string>4E236D8D1D4F125A00BD6DB0</string>
-				<string>4E236D8E1D4F125A00BD6DB0</string>
-				<string>4E236D8F1D4F125A00BD6DB0</string>
-				<string>4E236D901D4F125A00BD6DB0</string>
-				<string>4E236D911D4F125A00BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>images</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D8C1D4F125A00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4E236E821D4F4E7B00BD6DB0</string>
-				<string>4E236E841D4F4E7B00BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>common</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D8D1D4F125A00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>community</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D8E1D4F125A00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>cookbook</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D8F1D4F125A00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>foodClass</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D901D4F125A00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>mall</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D911D4F125A00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>mine</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D921D4F125A00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>thirdParty</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D971D4F134C00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4E236D981D4F134C00BD6DB0</string>
-				<string>4E236D9C1D4F134C00BD6DB0</string>
-				<string>4E236DA11D4F134C00BD6DB0</string>
-				<string>4E236DA61D4F134C00BD6DB0</string>
-				<string>4E236DAB1D4F134C00BD6DB0</string>
-				<string>4E236DB01D4F134C00BD6DB0</string>
-				<string>4E236DB51D4F134C00BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D981D4F134C00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4E236D991D4F134C00BD6DB0</string>
-				<string>4E236D9A1D4F134C00BD6DB0</string>
-				<string>4E236D9B1D4F134C00BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>common</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D991D4F134C00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>controller</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D9A1D4F134C00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>model</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D9B1D4F134C00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>view</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D9C1D4F134C00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4E236D9D1D4F134C00BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>community</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D9D1D4F134C00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4E236D9E1D4F134C00BD6DB0</string>
-				<string>4E236D9F1D4F134C00BD6DB0</string>
-				<string>4E236DA01D4F134C00BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>homePage</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D9E1D4F134C00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4E236E781D4F482800BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>controller</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236D9F1D4F134C00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>model</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236DA01D4F134C00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>view</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236DA11D4F134C00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4E236DA21D4F134C00BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>cookbook</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236DA21D4F134C00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4E236DA31D4F134C00BD6DB0</string>
-				<string>4E236DA41D4F134C00BD6DB0</string>
-				<string>4E236DA51D4F134C00BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>homePage</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236DA31D4F134C00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4E236E7A1D4F483B00BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>controller</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236DA41D4F134C00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>model</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236DA51D4F134C00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>view</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236DA61D4F134C00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4E236DA71D4F134C00BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>foodClass</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236DA71D4F134C00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4E236DA81D4F134C00BD6DB0</string>
-				<string>4E236DA91D4F134C00BD6DB0</string>
-				<string>4E236DAA1D4F134C00BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>homePage</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236DA81D4F134C00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4E236E7C1D4F484800BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>controller</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236DA91D4F134C00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>model</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236DAA1D4F134C00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>view</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236DAB1D4F134C00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4E236DAC1D4F134C00BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>mall</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236DAC1D4F134C00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4E236DAD1D4F134C00BD6DB0</string>
-				<string>4E236DAE1D4F134C00BD6DB0</string>
-				<string>4E236DAF1D4F134C00BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>homePage</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236DAD1D4F134C00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4E236E7E1D4F485500BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>controller</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236DAE1D4F134C00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>model</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236DAF1D4F134C00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>view</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236DB01D4F134C00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4E236DB11D4F134C00BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>mine</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236DB11D4F134C00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4E236DB21D4F134C00BD6DB0</string>
-				<string>4E236DB31D4F134C00BD6DB0</string>
-				<string>4E236DB41D4F134C00BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>homePage</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236DB21D4F134C00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4E236E801D4F486000BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>controller</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236DB31D4F134C00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>model</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236DB41D4F134C00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>view</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236DB51D4F134C00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4E236DB61D4F134C00BD6DB0</string>
-				<string>4E236DB71D4F134C00BD6DB0</string>
-				<string>4E236E741D4F47EF00BD6DB0</string>
-				<string>4E236E761D4F480C00BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>util</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236DB61D4F134C00BD6DB0</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>Const.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236DB71D4F134C00BD6DB0</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>KTCUtil.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236DB81D4F134C00BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236DB61D4F134C00BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236DB91D4F134C00BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236DB71D4F134C00BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236E741D4F47EF00BD6DB0</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>KTCBaseViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E751D4F47EF00BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236E741D4F47EF00BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236E761D4F480C00BD6DB0</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>KTCMainTabBarController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E771D4F480C00BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236E761D4F480C00BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236E781D4F482800BD6DB0</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>CommunityViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E791D4F482800BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236E781D4F482800BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236E7A1D4F483B00BD6DB0</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>CookbookViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E7B1D4F483B00BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236E7A1D4F483B00BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236E7C1D4F484800BD6DB0</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>FoodclassViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E7D1D4F484800BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236E7C1D4F484800BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236E7E1D4F485500BD6DB0</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>MallViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E7F1D4F485500BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236E7E1D4F485500BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236E801D4F486000BD6DB0</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>MineViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E811D4F486000BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236E801D4F486000BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236E821D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4E236E831D4F4E7B00BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>nav</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E831D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>nav_back_black.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E841D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4E236E851D4F4E7B00BD6DB0</string>
-				<string>4E236E861D4F4E7B00BD6DB0</string>
-				<string>4E236E871D4F4E7B00BD6DB0</string>
-				<string>4E236E881D4F4E7B00BD6DB0</string>
-				<string>4E236E891D4F4E7B00BD6DB0</string>
-				<string>4E236E8A1D4F4E7B00BD6DB0</string>
-				<string>4E236E8B1D4F4E7B00BD6DB0</string>
-				<string>4E236E8C1D4F4E7B00BD6DB0</string>
-				<string>4E236E8D1D4F4E7B00BD6DB0</string>
-				<string>4E236E8E1D4F4E7B00BD6DB0</string>
-				<string>4E236E8F1D4F4E7B00BD6DB0</string>
-				<string>4E236E901D4F4E7B00BD6DB0</string>
-				<string>4E236E911D4F4E7B00BD6DB0</string>
-				<string>4E236E921D4F4E7B00BD6DB0</string>
-				<string>4E236E931D4F4E7B00BD6DB0</string>
-				<string>4E236E941D4F4E7B00BD6DB0</string>
-				<string>4E236E951D4F4E7B00BD6DB0</string>
-				<string>4E236E961D4F4E7B00BD6DB0</string>
-				<string>4E236E971D4F4E7B00BD6DB0</string>
-				<string>4E236E981D4F4E7B00BD6DB0</string>
-				<string>4E236E991D4F4E7B00BD6DB0</string>
-				<string>4E236E9A1D4F4E7B00BD6DB0</string>
-				<string>4E236E9B1D4F4E7B00BD6DB0</string>
-				<string>4E236E9C1D4F4E7B00BD6DB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>tab</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E851D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>community_normal@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E861D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>community_normal@3x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E871D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>community_select@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E881D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>community_select@3x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E891D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>home_normal@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E8A1D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>home_normal@3x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E8B1D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>home_select@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E8C1D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>home_select@3x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E8D1D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>mine_normal@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E8E1D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>mine_normal@3x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E8F1D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>mine_select@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E901D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>mine_select@3x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E911D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>report_normal@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E921D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>report_normal@3x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E931D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>report_select@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E941D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>report_select@3x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E951D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>shike_normal@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E961D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>shike_normal@3x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E971D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>shike_select@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E981D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>shike_select@3x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E991D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>shop_normal@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E9A1D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>shop_normal@3x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E9B1D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>shop_select@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E9C1D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>image.png</string>
-			<key>path</key>
-			<string>shop_select@3x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E236E9D1D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236E831D4F4E7B00BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236E9E1D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236E851D4F4E7B00BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236E9F1D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236E861D4F4E7B00BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236EA01D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236E871D4F4E7B00BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236EA11D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236E881D4F4E7B00BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236EA21D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236E891D4F4E7B00BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236EA31D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236E8A1D4F4E7B00BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236EA41D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236E8B1D4F4E7B00BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236EA51D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236E8C1D4F4E7B00BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236EA61D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236E8D1D4F4E7B00BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236EA71D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236E8E1D4F4E7B00BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236EA81D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236E8F1D4F4E7B00BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236EA91D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236E901D4F4E7B00BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236EAA1D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236E911D4F4E7B00BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236EAB1D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236E921D4F4E7B00BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236EAC1D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236E931D4F4E7B00BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236EAD1D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236E941D4F4E7B00BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236EAE1D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236E951D4F4E7B00BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236EAF1D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236E961D4F4E7B00BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236EB01D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236E971D4F4E7B00BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236EB11D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236E981D4F4E7B00BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236EB21D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236E991D4F4E7B00BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236EB31D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236E9A1D4F4E7B00BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236EB41D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236E9B1D4F4E7B00BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E236EB51D4F4E7B00BD6DB0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E236E9C1D4F4E7B00BD6DB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5C32A5CAE630ED9FD3F0E20B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>63B09EE14B6985B7C8DBA62F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>728C78D74857B8C225E41239</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E2FD51E35BA06CB80D337B44</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A2F1B2D85567A3C96BE5F94B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CCF162A46D75E8E75C690279</string>
-				<string>2EA4F22F66A3486DA610D910</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CCF162A46D75E8E75C690279</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods/Pods.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2FD51E35BA06CB80D337B44</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>4E236D471D4F0FF800BD6DB0</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23CECC473117C0315DCAF5A7 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2FD51E35BA06CB80D337B44 /* Pods.framework */; };
+		4E236D531D4F0FF800BD6DB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E236D521D4F0FF800BD6DB0 /* AppDelegate.swift */; };
+		4E236D551D4F0FF800BD6DB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E236D541D4F0FF800BD6DB0 /* ViewController.swift */; };
+		4E236D581D4F0FF800BD6DB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E236D561D4F0FF800BD6DB0 /* Main.storyboard */; };
+		4E236D5A1D4F0FF800BD6DB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E236D591D4F0FF800BD6DB0 /* Assets.xcassets */; };
+		4E236D5D1D4F0FF800BD6DB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E236D5B1D4F0FF800BD6DB0 /* LaunchScreen.storyboard */; };
+		4E236D681D4F0FF800BD6DB0 /* TestKitchen_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E236D671D4F0FF800BD6DB0 /* TestKitchen_SwiftTests.swift */; };
+		4E236D731D4F0FF900BD6DB0 /* TestKitchen_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E236D721D4F0FF900BD6DB0 /* TestKitchen_SwiftUITests.swift */; };
+		4E236D811D4F103600BD6DB0 /* ReadMe.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4E236D801D4F103600BD6DB0 /* ReadMe.rtf */; };
+		4E236DB81D4F134C00BD6DB0 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E236DB61D4F134C00BD6DB0 /* Const.swift */; };
+		4E236DB91D4F134C00BD6DB0 /* KTCUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E236DB71D4F134C00BD6DB0 /* KTCUtil.swift */; };
+		4E236E751D4F47EF00BD6DB0 /* KTCBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E236E741D4F47EF00BD6DB0 /* KTCBaseViewController.swift */; };
+		4E236E771D4F480C00BD6DB0 /* KTCMainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E236E761D4F480C00BD6DB0 /* KTCMainTabBarController.swift */; };
+		4E236E791D4F482800BD6DB0 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E236E781D4F482800BD6DB0 /* CommunityViewController.swift */; };
+		4E236E7B1D4F483B00BD6DB0 /* CookbookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E236E7A1D4F483B00BD6DB0 /* CookbookViewController.swift */; };
+		4E236E7D1D4F484800BD6DB0 /* FoodclassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E236E7C1D4F484800BD6DB0 /* FoodclassViewController.swift */; };
+		4E236E7F1D4F485500BD6DB0 /* MallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E236E7E1D4F485500BD6DB0 /* MallViewController.swift */; };
+		4E236E811D4F486000BD6DB0 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E236E801D4F486000BD6DB0 /* MineViewController.swift */; };
+		4E236E9D1D4F4E7B00BD6DB0 /* nav_back_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E236E831D4F4E7B00BD6DB0 /* nav_back_black.png */; };
+		4E236E9E1D4F4E7B00BD6DB0 /* community_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E236E851D4F4E7B00BD6DB0 /* community_normal@2x.png */; };
+		4E236E9F1D4F4E7B00BD6DB0 /* community_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E236E861D4F4E7B00BD6DB0 /* community_normal@3x.png */; };
+		4E236EA01D4F4E7B00BD6DB0 /* community_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E236E871D4F4E7B00BD6DB0 /* community_select@2x.png */; };
+		4E236EA11D4F4E7B00BD6DB0 /* community_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E236E881D4F4E7B00BD6DB0 /* community_select@3x.png */; };
+		4E236EA21D4F4E7B00BD6DB0 /* home_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E236E891D4F4E7B00BD6DB0 /* home_normal@2x.png */; };
+		4E236EA31D4F4E7B00BD6DB0 /* home_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E236E8A1D4F4E7B00BD6DB0 /* home_normal@3x.png */; };
+		4E236EA41D4F4E7B00BD6DB0 /* home_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E236E8B1D4F4E7B00BD6DB0 /* home_select@2x.png */; };
+		4E236EA51D4F4E7B00BD6DB0 /* home_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E236E8C1D4F4E7B00BD6DB0 /* home_select@3x.png */; };
+		4E236EA61D4F4E7B00BD6DB0 /* mine_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E236E8D1D4F4E7B00BD6DB0 /* mine_normal@2x.png */; };
+		4E236EA71D4F4E7B00BD6DB0 /* mine_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E236E8E1D4F4E7B00BD6DB0 /* mine_normal@3x.png */; };
+		4E236EA81D4F4E7B00BD6DB0 /* mine_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E236E8F1D4F4E7B00BD6DB0 /* mine_select@2x.png */; };
+		4E236EA91D4F4E7B00BD6DB0 /* mine_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E236E901D4F4E7B00BD6DB0 /* mine_select@3x.png */; };
+		4E236EAA1D4F4E7B00BD6DB0 /* report_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E236E911D4F4E7B00BD6DB0 /* report_normal@2x.png */; };
+		4E236EAB1D4F4E7B00BD6DB0 /* report_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E236E921D4F4E7B00BD6DB0 /* report_normal@3x.png */; };
+		4E236EAC1D4F4E7B00BD6DB0 /* report_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E236E931D4F4E7B00BD6DB0 /* report_select@2x.png */; };
+		4E236EAD1D4F4E7B00BD6DB0 /* report_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E236E941D4F4E7B00BD6DB0 /* report_select@3x.png */; };
+		4E236EAE1D4F4E7B00BD6DB0 /* shike_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E236E951D4F4E7B00BD6DB0 /* shike_normal@2x.png */; };
+		4E236EAF1D4F4E7B00BD6DB0 /* shike_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E236E961D4F4E7B00BD6DB0 /* shike_normal@3x.png */; };
+		4E236EB01D4F4E7B00BD6DB0 /* shike_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E236E971D4F4E7B00BD6DB0 /* shike_select@2x.png */; };
+		4E236EB11D4F4E7B00BD6DB0 /* shike_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E236E981D4F4E7B00BD6DB0 /* shike_select@3x.png */; };
+		4E236EB21D4F4E7B00BD6DB0 /* shop_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E236E991D4F4E7B00BD6DB0 /* shop_normal@2x.png */; };
+		4E236EB31D4F4E7B00BD6DB0 /* shop_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E236E9A1D4F4E7B00BD6DB0 /* shop_normal@3x.png */; };
+		4E236EB41D4F4E7B00BD6DB0 /* shop_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E236E9B1D4F4E7B00BD6DB0 /* shop_select@2x.png */; };
+		4E236EB51D4F4E7B00BD6DB0 /* shop_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E236E9C1D4F4E7B00BD6DB0 /* shop_select@3x.png */; };
+		4E25B0CD1D5332FE00DEC859 /* CBMaterialModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E25B0C81D5332FE00DEC859 /* CBMaterialModel.swift */; };
+		4E25B0CE1D5332FE00DEC859 /* CBRecommedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E25B0C91D5332FE00DEC859 /* CBRecommedModel.swift */; };
+		4E25B0CF1D5332FE00DEC859 /* CBMaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E25B0CB1D5332FE00DEC859 /* CBMaterialView.swift */; };
+		4E25B0D01D5332FE00DEC859 /* CBRecommendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E25B0CC1D5332FE00DEC859 /* CBRecommendView.swift */; };
+		4E25B0FE1D53336100DEC859 /* agree@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0D21D53336100DEC859 /* agree@2x.png */; };
+		4E25B0FF1D53336100DEC859 /* agree@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0D31D53336100DEC859 /* agree@3x.png */; };
+		4E25B1001D53336100DEC859 /* agree_p@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0D41D53336100DEC859 /* agree_p@2x.png */; };
+		4E25B1011D53336100DEC859 /* agree_p@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0D51D53336100DEC859 /* agree_p@3x.png */; };
+		4E25B1021D53336100DEC859 /* 举报.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0D61D53336100DEC859 /* 举报.png */; };
+		4E25B1031D53336100DEC859 /* 分享@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0D71D53336100DEC859 /* 分享@2x.png */; };
+		4E25B1041D53336100DEC859 /* 分享@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0D81D53336100DEC859 /* 分享@3x.png */; };
+		4E25B1051D53336100DEC859 /* 分享_p@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0D91D53336100DEC859 /* 分享_p@2x.png */; };
+		4E25B1061D53336100DEC859 /* 分享_p@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0DA1D53336100DEC859 /* 分享_p@3x.png */; };
+		4E25B1071D53336100DEC859 /* 更多.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0DB1D53336100DEC859 /* 更多.png */; };
+		4E25B1081D53336100DEC859 /* 标签.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0DC1D53336100DEC859 /* 标签.png */; };
+		4E25B1091D53336100DEC859 /* 点赞.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0DD1D53336100DEC859 /* 点赞.png */; };
+		4E25B10A1D53336100DEC859 /* 精品.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0DE1D53336100DEC859 /* 精品.png */; };
+		4E25B10B1D53336100DEC859 /* 评论@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0DF1D53336100DEC859 /* 评论@2x.png */; };
+		4E25B10C1D53336100DEC859 /* 评论@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0E01D53336100DEC859 /* 评论@3x.png */; };
+		4E25B10D1D53336100DEC859 /* 评论_p@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0E11D53336100DEC859 /* 评论_p@2x.png */; };
+		4E25B10E1D53336100DEC859 /* 评论_p@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0E21D53336100DEC859 /* 评论_p@3x.png */; };
+		4E25B10F1D53336100DEC859 /* 达人.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0E31D53336100DEC859 /* 达人.png */; };
+		4E25B1101D53336100DEC859 /* ArrowLeft@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0E61D53336100DEC859 /* ArrowLeft@3x.png */; };
+		4E25B1111D53336100DEC859 /* ArrowRight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0E71D53336100DEC859 /* ArrowRight@3x.png */; };
+		4E25B1121D53336100DEC859 /* ico_share_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0E81D53336100DEC859 /* ico_share_white.png */; };
+		4E25B1131D53336100DEC859 /* icon_collect.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0E91D53336100DEC859 /* icon_collect.png */; };
+		4E25B1141D53336100DEC859 /* icon_collect_p.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0EA1D53336100DEC859 /* icon_collect_p.png */; };
+		4E25B1151D53336100DEC859 /* material_guide_bg03.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0EB1D53336100DEC859 /* material_guide_bg03.png */; };
+		4E25B1161D53336100DEC859 /* pull@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0EC1D53336100DEC859 /* pull@3x.png */; };
+		4E25B1171D53336100DEC859 /* push@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0ED1D53336100DEC859 /* push@3x.png */; };
+		4E25B1181D53336100DEC859 /* icon_like@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0EF1D53336100DEC859 /* icon_like@2x.png */; };
+		4E25B1191D53336100DEC859 /* icon_like@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0F01D53336100DEC859 /* icon_like@3x.png */; };
+		4E25B11A1D53336100DEC859 /* icon_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0F11D53336100DEC859 /* icon_play@2x.png */; };
+		4E25B11B1D53336100DEC859 /* icon_play@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0F21D53336100DEC859 /* icon_play@3x.png */; };
+		4E25B11C1D53336100DEC859 /* more_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0F31D53336100DEC859 /* more_icon.png */; };
+		4E25B11D1D53336100DEC859 /* play-A@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0F41D53336100DEC859 /* play-A@2x.png */; };
+		4E25B11E1D53336100DEC859 /* play-A@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0F51D53336100DEC859 /* play-A@3x.png */; };
+		4E25B11F1D53336100DEC859 /* saoyisao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0F61D53336100DEC859 /* saoyisao@2x.png */; };
+		4E25B1201D53336100DEC859 /* saoyisao@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0F71D53336100DEC859 /* saoyisao@3x.png */; };
+		4E25B1211D53336100DEC859 /* search1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0F81D53336100DEC859 /* search1.png */; };
+		4E25B1221D53336100DEC859 /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0F91D53336100DEC859 /* search@2x.png */; };
+		4E25B1231D53336100DEC859 /* search@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E25B0FA1D53336100DEC859 /* search@3x.png */; };
+		4E25B1261D53339000DEC859 /* KTCDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E25B1241D53339000DEC859 /* KTCDownloader.swift */; };
+		4E25B1271D53339000DEC859 /* KTCSegmentCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E25B1251D53339000DEC859 /* KTCSegmentCtrl.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E236D641D4F0FF800BD6DB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E236D471D4F0FF800BD6DB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E236D4E1D4F0FF800BD6DB0;
+			remoteInfo = TestKitchen_Swift;
+		};
+		4E236D6F1D4F0FF900BD6DB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E236D471D4F0FF800BD6DB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E236D4E1D4F0FF800BD6DB0;
+			remoteInfo = TestKitchen_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EA4F22F66A3486DA610D910 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		4E236D4F1D4F0FF800BD6DB0 /* TestKitchen_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestKitchen_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E236D521D4F0FF800BD6DB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E236D541D4F0FF800BD6DB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E236D571D4F0FF800BD6DB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E236D591D4F0FF800BD6DB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E236D5C1D4F0FF800BD6DB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E236D5E1D4F0FF800BD6DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E236D631D4F0FF800BD6DB0 /* TestKitchen_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestKitchen_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E236D671D4F0FF800BD6DB0 /* TestKitchen_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestKitchen_SwiftTests.swift; sourceTree = "<group>"; };
+		4E236D691D4F0FF900BD6DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E236D6E1D4F0FF900BD6DB0 /* TestKitchen_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestKitchen_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E236D721D4F0FF900BD6DB0 /* TestKitchen_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestKitchen_SwiftUITests.swift; sourceTree = "<group>"; };
+		4E236D741D4F0FF900BD6DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E236D801D4F103600BD6DB0 /* ReadMe.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = ReadMe.rtf; sourceTree = "<group>"; };
+		4E236DB61D4F134C00BD6DB0 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		4E236DB71D4F134C00BD6DB0 /* KTCUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTCUtil.swift; sourceTree = "<group>"; };
+		4E236E741D4F47EF00BD6DB0 /* KTCBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTCBaseViewController.swift; sourceTree = "<group>"; };
+		4E236E761D4F480C00BD6DB0 /* KTCMainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTCMainTabBarController.swift; sourceTree = "<group>"; };
+		4E236E781D4F482800BD6DB0 /* CommunityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
+		4E236E7A1D4F483B00BD6DB0 /* CookbookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CookbookViewController.swift; sourceTree = "<group>"; };
+		4E236E7C1D4F484800BD6DB0 /* FoodclassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodclassViewController.swift; sourceTree = "<group>"; };
+		4E236E7E1D4F485500BD6DB0 /* MallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MallViewController.swift; sourceTree = "<group>"; };
+		4E236E801D4F486000BD6DB0 /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		4E236E831D4F4E7B00BD6DB0 /* nav_back_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_back_black.png; sourceTree = "<group>"; };
+		4E236E851D4F4E7B00BD6DB0 /* community_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "community_normal@2x.png"; sourceTree = "<group>"; };
+		4E236E861D4F4E7B00BD6DB0 /* community_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "community_normal@3x.png"; sourceTree = "<group>"; };
+		4E236E871D4F4E7B00BD6DB0 /* community_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "community_select@2x.png"; sourceTree = "<group>"; };
+		4E236E881D4F4E7B00BD6DB0 /* community_select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "community_select@3x.png"; sourceTree = "<group>"; };
+		4E236E891D4F4E7B00BD6DB0 /* home_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_normal@2x.png"; sourceTree = "<group>"; };
+		4E236E8A1D4F4E7B00BD6DB0 /* home_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_normal@3x.png"; sourceTree = "<group>"; };
+		4E236E8B1D4F4E7B00BD6DB0 /* home_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_select@2x.png"; sourceTree = "<group>"; };
+		4E236E8C1D4F4E7B00BD6DB0 /* home_select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_select@3x.png"; sourceTree = "<group>"; };
+		4E236E8D1D4F4E7B00BD6DB0 /* mine_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mine_normal@2x.png"; sourceTree = "<group>"; };
+		4E236E8E1D4F4E7B00BD6DB0 /* mine_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mine_normal@3x.png"; sourceTree = "<group>"; };
+		4E236E8F1D4F4E7B00BD6DB0 /* mine_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mine_select@2x.png"; sourceTree = "<group>"; };
+		4E236E901D4F4E7B00BD6DB0 /* mine_select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mine_select@3x.png"; sourceTree = "<group>"; };
+		4E236E911D4F4E7B00BD6DB0 /* report_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "report_normal@2x.png"; sourceTree = "<group>"; };
+		4E236E921D4F4E7B00BD6DB0 /* report_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "report_normal@3x.png"; sourceTree = "<group>"; };
+		4E236E931D4F4E7B00BD6DB0 /* report_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "report_select@2x.png"; sourceTree = "<group>"; };
+		4E236E941D4F4E7B00BD6DB0 /* report_select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "report_select@3x.png"; sourceTree = "<group>"; };
+		4E236E951D4F4E7B00BD6DB0 /* shike_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shike_normal@2x.png"; sourceTree = "<group>"; };
+		4E236E961D4F4E7B00BD6DB0 /* shike_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shike_normal@3x.png"; sourceTree = "<group>"; };
+		4E236E971D4F4E7B00BD6DB0 /* shike_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shike_select@2x.png"; sourceTree = "<group>"; };
+		4E236E981D4F4E7B00BD6DB0 /* shike_select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shike_select@3x.png"; sourceTree = "<group>"; };
+		4E236E991D4F4E7B00BD6DB0 /* shop_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shop_normal@2x.png"; sourceTree = "<group>"; };
+		4E236E9A1D4F4E7B00BD6DB0 /* shop_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shop_normal@3x.png"; sourceTree = "<group>"; };
+		4E236E9B1D4F4E7B00BD6DB0 /* shop_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shop_select@2x.png"; sourceTree = "<group>"; };
+		4E236E9C1D4F4E7B00BD6DB0 /* shop_select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shop_select@3x.png"; sourceTree = "<group>"; };
+		4E25B0C81D5332FE00DEC859 /* CBMaterialModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBMaterialModel.swift; sourceTree = "<group>"; };
+		4E25B0C91D5332FE00DEC859 /* CBRecommedModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBRecommedModel.swift; sourceTree = "<group>"; };
+		4E25B0CB1D5332FE00DEC859 /* CBMaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBMaterialView.swift; sourceTree = "<group>"; };
+		4E25B0CC1D5332FE00DEC859 /* CBRecommendView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBRecommendView.swift; sourceTree = "<group>"; };
+		4E25B0D21D53336100DEC859 /* agree@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "agree@2x.png"; sourceTree = "<group>"; };
+		4E25B0D31D53336100DEC859 /* agree@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "agree@3x.png"; sourceTree = "<group>"; };
+		4E25B0D41D53336100DEC859 /* agree_p@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "agree_p@2x.png"; sourceTree = "<group>"; };
+		4E25B0D51D53336100DEC859 /* agree_p@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "agree_p@3x.png"; sourceTree = "<group>"; };
+		4E25B0D61D53336100DEC859 /* 举报.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "举报.png"; sourceTree = "<group>"; };
+		4E25B0D71D53336100DEC859 /* 分享@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分享@2x.png"; sourceTree = "<group>"; };
+		4E25B0D81D53336100DEC859 /* 分享@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分享@3x.png"; sourceTree = "<group>"; };
+		4E25B0D91D53336100DEC859 /* 分享_p@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分享_p@2x.png"; sourceTree = "<group>"; };
+		4E25B0DA1D53336100DEC859 /* 分享_p@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分享_p@3x.png"; sourceTree = "<group>"; };
+		4E25B0DB1D53336100DEC859 /* 更多.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "更多.png"; sourceTree = "<group>"; };
+		4E25B0DC1D53336100DEC859 /* 标签.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标签.png"; sourceTree = "<group>"; };
+		4E25B0DD1D53336100DEC859 /* 点赞.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "点赞.png"; sourceTree = "<group>"; };
+		4E25B0DE1D53336100DEC859 /* 精品.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "精品.png"; sourceTree = "<group>"; };
+		4E25B0DF1D53336100DEC859 /* 评论@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "评论@2x.png"; sourceTree = "<group>"; };
+		4E25B0E01D53336100DEC859 /* 评论@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "评论@3x.png"; sourceTree = "<group>"; };
+		4E25B0E11D53336100DEC859 /* 评论_p@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "评论_p@2x.png"; sourceTree = "<group>"; };
+		4E25B0E21D53336100DEC859 /* 评论_p@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "评论_p@3x.png"; sourceTree = "<group>"; };
+		4E25B0E31D53336100DEC859 /* 达人.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "达人.png"; sourceTree = "<group>"; };
+		4E25B0E61D53336100DEC859 /* ArrowLeft@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ArrowLeft@3x.png"; sourceTree = "<group>"; };
+		4E25B0E71D53336100DEC859 /* ArrowRight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ArrowRight@3x.png"; sourceTree = "<group>"; };
+		4E25B0E81D53336100DEC859 /* ico_share_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_share_white.png; sourceTree = "<group>"; };
+		4E25B0E91D53336100DEC859 /* icon_collect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_collect.png; sourceTree = "<group>"; };
+		4E25B0EA1D53336100DEC859 /* icon_collect_p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_collect_p.png; sourceTree = "<group>"; };
+		4E25B0EB1D53336100DEC859 /* material_guide_bg03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = material_guide_bg03.png; sourceTree = "<group>"; };
+		4E25B0EC1D53336100DEC859 /* pull@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pull@3x.png"; sourceTree = "<group>"; };
+		4E25B0ED1D53336100DEC859 /* push@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "push@3x.png"; sourceTree = "<group>"; };
+		4E25B0EF1D53336100DEC859 /* icon_like@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_like@2x.png"; sourceTree = "<group>"; };
+		4E25B0F01D53336100DEC859 /* icon_like@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_like@3x.png"; sourceTree = "<group>"; };
+		4E25B0F11D53336100DEC859 /* icon_play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_play@2x.png"; sourceTree = "<group>"; };
+		4E25B0F21D53336100DEC859 /* icon_play@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_play@3x.png"; sourceTree = "<group>"; };
+		4E25B0F31D53336100DEC859 /* more_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more_icon.png; sourceTree = "<group>"; };
+		4E25B0F41D53336100DEC859 /* play-A@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-A@2x.png"; sourceTree = "<group>"; };
+		4E25B0F51D53336100DEC859 /* play-A@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-A@3x.png"; sourceTree = "<group>"; };
+		4E25B0F61D53336100DEC859 /* saoyisao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "saoyisao@2x.png"; sourceTree = "<group>"; };
+		4E25B0F71D53336100DEC859 /* saoyisao@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "saoyisao@3x.png"; sourceTree = "<group>"; };
+		4E25B0F81D53336100DEC859 /* search1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search1.png; sourceTree = "<group>"; };
+		4E25B0F91D53336100DEC859 /* search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@2x.png"; sourceTree = "<group>"; };
+		4E25B0FA1D53336100DEC859 /* search@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@3x.png"; sourceTree = "<group>"; };
+		4E25B1241D53339000DEC859 /* KTCDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTCDownloader.swift; sourceTree = "<group>"; };
+		4E25B1251D53339000DEC859 /* KTCSegmentCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTCSegmentCtrl.swift; sourceTree = "<group>"; };
+		CCF162A46D75E8E75C690279 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E2FD51E35BA06CB80D337B44 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E236D4C1D4F0FF800BD6DB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23CECC473117C0315DCAF5A7 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E236D601D4F0FF800BD6DB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E236D6B1D4F0FF900BD6DB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E236D461D4F0FF800BD6DB0 = {
+			isa = PBXGroup;
+			children = (
+				4E236D511D4F0FF800BD6DB0 /* TestKitchen_Swift */,
+				4E236D661D4F0FF800BD6DB0 /* TestKitchen_SwiftTests */,
+				4E236D711D4F0FF900BD6DB0 /* TestKitchen_SwiftUITests */,
+				4E236D501D4F0FF800BD6DB0 /* Products */,
+				A2F1B2D85567A3C96BE5F94B /* Pods */,
+				728C78D74857B8C225E41239 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4E236D501D4F0FF800BD6DB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E236D4F1D4F0FF800BD6DB0 /* TestKitchen_Swift.app */,
+				4E236D631D4F0FF800BD6DB0 /* TestKitchen_SwiftTests.xctest */,
+				4E236D6E1D4F0FF900BD6DB0 /* TestKitchen_SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E236D511D4F0FF800BD6DB0 /* TestKitchen_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				4E236D971D4F134C00BD6DB0 /* classes */,
+				4E236D8A1D4F125A00BD6DB0 /* resources */,
+				4E236D921D4F125A00BD6DB0 /* thirdParty */,
+				4E236D521D4F0FF800BD6DB0 /* AppDelegate.swift */,
+				4E236D541D4F0FF800BD6DB0 /* ViewController.swift */,
+				4E236D561D4F0FF800BD6DB0 /* Main.storyboard */,
+				4E236D591D4F0FF800BD6DB0 /* Assets.xcassets */,
+				4E236D5B1D4F0FF800BD6DB0 /* LaunchScreen.storyboard */,
+				4E236D5E1D4F0FF800BD6DB0 /* Info.plist */,
+				4E236D801D4F103600BD6DB0 /* ReadMe.rtf */,
+			);
+			path = TestKitchen_Swift;
+			sourceTree = "<group>";
+		};
+		4E236D661D4F0FF800BD6DB0 /* TestKitchen_SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E236D671D4F0FF800BD6DB0 /* TestKitchen_SwiftTests.swift */,
+				4E236D691D4F0FF900BD6DB0 /* Info.plist */,
+			);
+			path = TestKitchen_SwiftTests;
+			sourceTree = "<group>";
+		};
+		4E236D711D4F0FF900BD6DB0 /* TestKitchen_SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E236D721D4F0FF900BD6DB0 /* TestKitchen_SwiftUITests.swift */,
+				4E236D741D4F0FF900BD6DB0 /* Info.plist */,
+			);
+			path = TestKitchen_SwiftUITests;
+			sourceTree = "<group>";
+		};
+		4E236D8A1D4F125A00BD6DB0 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				4E236D8B1D4F125A00BD6DB0 /* images */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		4E236D8B1D4F125A00BD6DB0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				4E25B0D11D53336100DEC859 /* community */,
+				4E25B0E41D53336100DEC859 /* cookbook */,
+				4E25B0FB1D53336100DEC859 /* foodClass */,
+				4E25B0FC1D53336100DEC859 /* mall */,
+				4E25B0FD1D53336100DEC859 /* mine */,
+				4E236D8C1D4F125A00BD6DB0 /* common */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		4E236D8C1D4F125A00BD6DB0 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				4E236E821D4F4E7B00BD6DB0 /* nav */,
+				4E236E841D4F4E7B00BD6DB0 /* tab */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		4E236D921D4F125A00BD6DB0 /* thirdParty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = thirdParty;
+			sourceTree = "<group>";
+		};
+		4E236D971D4F134C00BD6DB0 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				4E236D981D4F134C00BD6DB0 /* common */,
+				4E236D9C1D4F134C00BD6DB0 /* community */,
+				4E236DA11D4F134C00BD6DB0 /* cookbook */,
+				4E236DA61D4F134C00BD6DB0 /* foodClass */,
+				4E236DAB1D4F134C00BD6DB0 /* mall */,
+				4E236DB01D4F134C00BD6DB0 /* mine */,
+				4E236DB51D4F134C00BD6DB0 /* util */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		4E236D981D4F134C00BD6DB0 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				4E236D991D4F134C00BD6DB0 /* controller */,
+				4E236D9A1D4F134C00BD6DB0 /* model */,
+				4E236D9B1D4F134C00BD6DB0 /* view */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		4E236D991D4F134C00BD6DB0 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		4E236D9A1D4F134C00BD6DB0 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4E236D9B1D4F134C00BD6DB0 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4E236D9C1D4F134C00BD6DB0 /* community */ = {
+			isa = PBXGroup;
+			children = (
+				4E236D9D1D4F134C00BD6DB0 /* homePage */,
+			);
+			path = community;
+			sourceTree = "<group>";
+		};
+		4E236D9D1D4F134C00BD6DB0 /* homePage */ = {
+			isa = PBXGroup;
+			children = (
+				4E236D9E1D4F134C00BD6DB0 /* controller */,
+				4E236D9F1D4F134C00BD6DB0 /* model */,
+				4E236DA01D4F134C00BD6DB0 /* view */,
+			);
+			path = homePage;
+			sourceTree = "<group>";
+		};
+		4E236D9E1D4F134C00BD6DB0 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E236E781D4F482800BD6DB0 /* CommunityViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		4E236D9F1D4F134C00BD6DB0 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4E236DA01D4F134C00BD6DB0 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4E236DA11D4F134C00BD6DB0 /* cookbook */ = {
+			isa = PBXGroup;
+			children = (
+				4E236DA21D4F134C00BD6DB0 /* homePage */,
+			);
+			path = cookbook;
+			sourceTree = "<group>";
+		};
+		4E236DA21D4F134C00BD6DB0 /* homePage */ = {
+			isa = PBXGroup;
+			children = (
+				4E25B0C71D5332FE00DEC859 /* model */,
+				4E25B0CA1D5332FE00DEC859 /* view */,
+				4E236DA31D4F134C00BD6DB0 /* controller */,
+			);
+			path = homePage;
+			sourceTree = "<group>";
+		};
+		4E236DA31D4F134C00BD6DB0 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E236E7A1D4F483B00BD6DB0 /* CookbookViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		4E236DA61D4F134C00BD6DB0 /* foodClass */ = {
+			isa = PBXGroup;
+			children = (
+				4E236DA71D4F134C00BD6DB0 /* homePage */,
+			);
+			path = foodClass;
+			sourceTree = "<group>";
+		};
+		4E236DA71D4F134C00BD6DB0 /* homePage */ = {
+			isa = PBXGroup;
+			children = (
+				4E236DA81D4F134C00BD6DB0 /* controller */,
+				4E236DA91D4F134C00BD6DB0 /* model */,
+				4E236DAA1D4F134C00BD6DB0 /* view */,
+			);
+			path = homePage;
+			sourceTree = "<group>";
+		};
+		4E236DA81D4F134C00BD6DB0 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E236E7C1D4F484800BD6DB0 /* FoodclassViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		4E236DA91D4F134C00BD6DB0 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4E236DAA1D4F134C00BD6DB0 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4E236DAB1D4F134C00BD6DB0 /* mall */ = {
+			isa = PBXGroup;
+			children = (
+				4E236DAC1D4F134C00BD6DB0 /* homePage */,
+			);
+			path = mall;
+			sourceTree = "<group>";
+		};
+		4E236DAC1D4F134C00BD6DB0 /* homePage */ = {
+			isa = PBXGroup;
+			children = (
+				4E236DAD1D4F134C00BD6DB0 /* controller */,
+				4E236DAE1D4F134C00BD6DB0 /* model */,
+				4E236DAF1D4F134C00BD6DB0 /* view */,
+			);
+			path = homePage;
+			sourceTree = "<group>";
+		};
+		4E236DAD1D4F134C00BD6DB0 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E236E7E1D4F485500BD6DB0 /* MallViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		4E236DAE1D4F134C00BD6DB0 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4E236DAF1D4F134C00BD6DB0 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4E236DB01D4F134C00BD6DB0 /* mine */ = {
+			isa = PBXGroup;
+			children = (
+				4E236DB11D4F134C00BD6DB0 /* homePage */,
+			);
+			path = mine;
+			sourceTree = "<group>";
+		};
+		4E236DB11D4F134C00BD6DB0 /* homePage */ = {
+			isa = PBXGroup;
+			children = (
+				4E236DB21D4F134C00BD6DB0 /* controller */,
+				4E236DB31D4F134C00BD6DB0 /* model */,
+				4E236DB41D4F134C00BD6DB0 /* view */,
+			);
+			path = homePage;
+			sourceTree = "<group>";
+		};
+		4E236DB21D4F134C00BD6DB0 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E236E801D4F486000BD6DB0 /* MineViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		4E236DB31D4F134C00BD6DB0 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4E236DB41D4F134C00BD6DB0 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4E236DB51D4F134C00BD6DB0 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				4E25B1241D53339000DEC859 /* KTCDownloader.swift */,
+				4E25B1251D53339000DEC859 /* KTCSegmentCtrl.swift */,
+				4E236DB61D4F134C00BD6DB0 /* Const.swift */,
+				4E236DB71D4F134C00BD6DB0 /* KTCUtil.swift */,
+				4E236E741D4F47EF00BD6DB0 /* KTCBaseViewController.swift */,
+				4E236E761D4F480C00BD6DB0 /* KTCMainTabBarController.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		4E236E821D4F4E7B00BD6DB0 /* nav */ = {
+			isa = PBXGroup;
+			children = (
+				4E236E831D4F4E7B00BD6DB0 /* nav_back_black.png */,
+			);
+			path = nav;
+			sourceTree = "<group>";
+		};
+		4E236E841D4F4E7B00BD6DB0 /* tab */ = {
+			isa = PBXGroup;
+			children = (
+				4E236E851D4F4E7B00BD6DB0 /* community_normal@2x.png */,
+				4E236E861D4F4E7B00BD6DB0 /* community_normal@3x.png */,
+				4E236E871D4F4E7B00BD6DB0 /* community_select@2x.png */,
+				4E236E881D4F4E7B00BD6DB0 /* community_select@3x.png */,
+				4E236E891D4F4E7B00BD6DB0 /* home_normal@2x.png */,
+				4E236E8A1D4F4E7B00BD6DB0 /* home_normal@3x.png */,
+				4E236E8B1D4F4E7B00BD6DB0 /* home_select@2x.png */,
+				4E236E8C1D4F4E7B00BD6DB0 /* home_select@3x.png */,
+				4E236E8D1D4F4E7B00BD6DB0 /* mine_normal@2x.png */,
+				4E236E8E1D4F4E7B00BD6DB0 /* mine_normal@3x.png */,
+				4E236E8F1D4F4E7B00BD6DB0 /* mine_select@2x.png */,
+				4E236E901D4F4E7B00BD6DB0 /* mine_select@3x.png */,
+				4E236E911D4F4E7B00BD6DB0 /* report_normal@2x.png */,
+				4E236E921D4F4E7B00BD6DB0 /* report_normal@3x.png */,
+				4E236E931D4F4E7B00BD6DB0 /* report_select@2x.png */,
+				4E236E941D4F4E7B00BD6DB0 /* report_select@3x.png */,
+				4E236E951D4F4E7B00BD6DB0 /* shike_normal@2x.png */,
+				4E236E961D4F4E7B00BD6DB0 /* shike_normal@3x.png */,
+				4E236E971D4F4E7B00BD6DB0 /* shike_select@2x.png */,
+				4E236E981D4F4E7B00BD6DB0 /* shike_select@3x.png */,
+				4E236E991D4F4E7B00BD6DB0 /* shop_normal@2x.png */,
+				4E236E9A1D4F4E7B00BD6DB0 /* shop_normal@3x.png */,
+				4E236E9B1D4F4E7B00BD6DB0 /* shop_select@2x.png */,
+				4E236E9C1D4F4E7B00BD6DB0 /* shop_select@3x.png */,
+			);
+			path = tab;
+			sourceTree = "<group>";
+		};
+		4E25B0C71D5332FE00DEC859 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				4E25B0C81D5332FE00DEC859 /* CBMaterialModel.swift */,
+				4E25B0C91D5332FE00DEC859 /* CBRecommedModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4E25B0CA1D5332FE00DEC859 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				4E25B0CB1D5332FE00DEC859 /* CBMaterialView.swift */,
+				4E25B0CC1D5332FE00DEC859 /* CBRecommendView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4E25B0D11D53336100DEC859 /* community */ = {
+			isa = PBXGroup;
+			children = (
+				4E25B0D21D53336100DEC859 /* agree@2x.png */,
+				4E25B0D31D53336100DEC859 /* agree@3x.png */,
+				4E25B0D41D53336100DEC859 /* agree_p@2x.png */,
+				4E25B0D51D53336100DEC859 /* agree_p@3x.png */,
+				4E25B0D61D53336100DEC859 /* 举报.png */,
+				4E25B0D71D53336100DEC859 /* 分享@2x.png */,
+				4E25B0D81D53336100DEC859 /* 分享@3x.png */,
+				4E25B0D91D53336100DEC859 /* 分享_p@2x.png */,
+				4E25B0DA1D53336100DEC859 /* 分享_p@3x.png */,
+				4E25B0DB1D53336100DEC859 /* 更多.png */,
+				4E25B0DC1D53336100DEC859 /* 标签.png */,
+				4E25B0DD1D53336100DEC859 /* 点赞.png */,
+				4E25B0DE1D53336100DEC859 /* 精品.png */,
+				4E25B0DF1D53336100DEC859 /* 评论@2x.png */,
+				4E25B0E01D53336100DEC859 /* 评论@3x.png */,
+				4E25B0E11D53336100DEC859 /* 评论_p@2x.png */,
+				4E25B0E21D53336100DEC859 /* 评论_p@3x.png */,
+				4E25B0E31D53336100DEC859 /* 达人.png */,
+			);
+			path = community;
+			sourceTree = "<group>";
+		};
+		4E25B0E41D53336100DEC859 /* cookbook */ = {
+			isa = PBXGroup;
+			children = (
+				4E25B0E51D53336100DEC859 /* foodCourse */,
+				4E25B0EE1D53336100DEC859 /* homePage */,
+			);
+			path = cookbook;
+			sourceTree = "<group>";
+		};
+		4E25B0E51D53336100DEC859 /* foodCourse */ = {
+			isa = PBXGroup;
+			children = (
+				4E25B0E61D53336100DEC859 /* ArrowLeft@3x.png */,
+				4E25B0E71D53336100DEC859 /* ArrowRight@3x.png */,
+				4E25B0E81D53336100DEC859 /* ico_share_white.png */,
+				4E25B0E91D53336100DEC859 /* icon_collect.png */,
+				4E25B0EA1D53336100DEC859 /* icon_collect_p.png */,
+				4E25B0EB1D53336100DEC859 /* material_guide_bg03.png */,
+				4E25B0EC1D53336100DEC859 /* pull@3x.png */,
+				4E25B0ED1D53336100DEC859 /* push@3x.png */,
+			);
+			path = foodCourse;
+			sourceTree = "<group>";
+		};
+		4E25B0EE1D53336100DEC859 /* homePage */ = {
+			isa = PBXGroup;
+			children = (
+				4E25B0EF1D53336100DEC859 /* icon_like@2x.png */,
+				4E25B0F01D53336100DEC859 /* icon_like@3x.png */,
+				4E25B0F11D53336100DEC859 /* icon_play@2x.png */,
+				4E25B0F21D53336100DEC859 /* icon_play@3x.png */,
+				4E25B0F31D53336100DEC859 /* more_icon.png */,
+				4E25B0F41D53336100DEC859 /* play-A@2x.png */,
+				4E25B0F51D53336100DEC859 /* play-A@3x.png */,
+				4E25B0F61D53336100DEC859 /* saoyisao@2x.png */,
+				4E25B0F71D53336100DEC859 /* saoyisao@3x.png */,
+				4E25B0F81D53336100DEC859 /* search1.png */,
+				4E25B0F91D53336100DEC859 /* search@2x.png */,
+				4E25B0FA1D53336100DEC859 /* search@3x.png */,
+			);
+			path = homePage;
+			sourceTree = "<group>";
+		};
+		4E25B0FB1D53336100DEC859 /* foodClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = foodClass;
+			sourceTree = "<group>";
+		};
+		4E25B0FC1D53336100DEC859 /* mall */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = mall;
+			sourceTree = "<group>";
+		};
+		4E25B0FD1D53336100DEC859 /* mine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = mine;
+			sourceTree = "<group>";
+		};
+		728C78D74857B8C225E41239 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2FD51E35BA06CB80D337B44 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2F1B2D85567A3C96BE5F94B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCF162A46D75E8E75C690279 /* Pods.debug.xcconfig */,
+				2EA4F22F66A3486DA610D910 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E236D4E1D4F0FF800BD6DB0 /* TestKitchen_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E236D771D4F0FF900BD6DB0 /* Build configuration list for PBXNativeTarget "TestKitchen_Swift" */;
+			buildPhases = (
+				4E236D4B1D4F0FF800BD6DB0 /* Sources */,
+				4E236D4C1D4F0FF800BD6DB0 /* Frameworks */,
+				4E236D4D1D4F0FF800BD6DB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestKitchen_Swift;
+			productName = TestKitchen_Swift;
+			productReference = 4E236D4F1D4F0FF800BD6DB0 /* TestKitchen_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E236D621D4F0FF800BD6DB0 /* TestKitchen_SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E236D7A1D4F0FF900BD6DB0 /* Build configuration list for PBXNativeTarget "TestKitchen_SwiftTests" */;
+			buildPhases = (
+				4E236D5F1D4F0FF800BD6DB0 /* Sources */,
+				4E236D601D4F0FF800BD6DB0 /* Frameworks */,
+				4E236D611D4F0FF800BD6DB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E236D651D4F0FF800BD6DB0 /* PBXTargetDependency */,
+			);
+			name = TestKitchen_SwiftTests;
+			productName = TestKitchen_SwiftTests;
+			productReference = 4E236D631D4F0FF800BD6DB0 /* TestKitchen_SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E236D6D1D4F0FF900BD6DB0 /* TestKitchen_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E236D7D1D4F0FF900BD6DB0 /* Build configuration list for PBXNativeTarget "TestKitchen_SwiftUITests" */;
+			buildPhases = (
+				4E236D6A1D4F0FF900BD6DB0 /* Sources */,
+				4E236D6B1D4F0FF900BD6DB0 /* Frameworks */,
+				4E236D6C1D4F0FF900BD6DB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E236D701D4F0FF900BD6DB0 /* PBXTargetDependency */,
+			);
+			name = TestKitchen_SwiftUITests;
+			productName = TestKitchen_SwiftUITests;
+			productReference = 4E236D6E1D4F0FF900BD6DB0 /* TestKitchen_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E236D471D4F0FF800BD6DB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					4E236D4E1D4F0FF800BD6DB0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4E236D621D4F0FF800BD6DB0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4E236D4E1D4F0FF800BD6DB0;
+					};
+					4E236D6D1D4F0FF900BD6DB0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4E236D4E1D4F0FF800BD6DB0;
+					};
+				};
+			};
+			buildConfigurationList = 4E236D4A1D4F0FF800BD6DB0 /* Build configuration list for PBXProject "TestKitchen_Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E236D461D4F0FF800BD6DB0;
+			productRefGroup = 4E236D501D4F0FF800BD6DB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E236D4E1D4F0FF800BD6DB0 /* TestKitchen_Swift */,
+				4E236D621D4F0FF800BD6DB0 /* TestKitchen_SwiftTests */,
+				4E236D6D1D4F0FF900BD6DB0 /* TestKitchen_SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E236D4D1D4F0FF800BD6DB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E25B1071D53336100DEC859 /* 更多.png in Resources */,
+				4E236EA91D4F4E7B00BD6DB0 /* mine_select@3x.png in Resources */,
+				4E25B11D1D53336100DEC859 /* play-A@2x.png in Resources */,
+				4E236EB51D4F4E7B00BD6DB0 /* shop_select@3x.png in Resources */,
+				4E236EAD1D4F4E7B00BD6DB0 /* report_select@3x.png in Resources */,
+				4E25B1101D53336100DEC859 /* ArrowLeft@3x.png in Resources */,
+				4E236EA01D4F4E7B00BD6DB0 /* community_select@2x.png in Resources */,
+				4E25B11B1D53336100DEC859 /* icon_play@3x.png in Resources */,
+				4E25B1141D53336100DEC859 /* icon_collect_p.png in Resources */,
+				4E25B11F1D53336100DEC859 /* saoyisao@2x.png in Resources */,
+				4E25B10D1D53336100DEC859 /* 评论_p@2x.png in Resources */,
+				4E25B1171D53336100DEC859 /* push@3x.png in Resources */,
+				4E25B1221D53336100DEC859 /* search@2x.png in Resources */,
+				4E25B1111D53336100DEC859 /* ArrowRight@3x.png in Resources */,
+				4E25B10C1D53336100DEC859 /* 评论@3x.png in Resources */,
+				4E236D5D1D4F0FF800BD6DB0 /* LaunchScreen.storyboard in Resources */,
+				4E25B1031D53336100DEC859 /* 分享@2x.png in Resources */,
+				4E25B1121D53336100DEC859 /* ico_share_white.png in Resources */,
+				4E25B11C1D53336100DEC859 /* more_icon.png in Resources */,
+				4E25B11E1D53336100DEC859 /* play-A@3x.png in Resources */,
+				4E25B0FE1D53336100DEC859 /* agree@2x.png in Resources */,
+				4E236E9D1D4F4E7B00BD6DB0 /* nav_back_black.png in Resources */,
+				4E25B1201D53336100DEC859 /* saoyisao@3x.png in Resources */,
+				4E236EA41D4F4E7B00BD6DB0 /* home_select@2x.png in Resources */,
+				4E236EAF1D4F4E7B00BD6DB0 /* shike_normal@3x.png in Resources */,
+				4E25B0FF1D53336100DEC859 /* agree@3x.png in Resources */,
+				4E25B1161D53336100DEC859 /* pull@3x.png in Resources */,
+				4E25B1091D53336100DEC859 /* 点赞.png in Resources */,
+				4E25B1061D53336100DEC859 /* 分享_p@3x.png in Resources */,
+				4E25B10A1D53336100DEC859 /* 精品.png in Resources */,
+				4E25B11A1D53336100DEC859 /* icon_play@2x.png in Resources */,
+				4E25B1191D53336100DEC859 /* icon_like@3x.png in Resources */,
+				4E236EAE1D4F4E7B00BD6DB0 /* shike_normal@2x.png in Resources */,
+				4E25B1151D53336100DEC859 /* material_guide_bg03.png in Resources */,
+				4E236EB11D4F4E7B00BD6DB0 /* shike_select@3x.png in Resources */,
+				4E236EB31D4F4E7B00BD6DB0 /* shop_normal@3x.png in Resources */,
+				4E236D5A1D4F0FF800BD6DB0 /* Assets.xcassets in Resources */,
+				4E25B1131D53336100DEC859 /* icon_collect.png in Resources */,
+				4E236EA31D4F4E7B00BD6DB0 /* home_normal@3x.png in Resources */,
+				4E25B10F1D53336100DEC859 /* 达人.png in Resources */,
+				4E25B10E1D53336100DEC859 /* 评论_p@3x.png in Resources */,
+				4E25B1051D53336100DEC859 /* 分享_p@2x.png in Resources */,
+				4E236EAB1D4F4E7B00BD6DB0 /* report_normal@3x.png in Resources */,
+				4E25B1181D53336100DEC859 /* icon_like@2x.png in Resources */,
+				4E236EB01D4F4E7B00BD6DB0 /* shike_select@2x.png in Resources */,
+				4E236EAC1D4F4E7B00BD6DB0 /* report_select@2x.png in Resources */,
+				4E25B1021D53336100DEC859 /* 举报.png in Resources */,
+				4E236EAA1D4F4E7B00BD6DB0 /* report_normal@2x.png in Resources */,
+				4E236EB41D4F4E7B00BD6DB0 /* shop_select@2x.png in Resources */,
+				4E25B1011D53336100DEC859 /* agree_p@3x.png in Resources */,
+				4E236E9E1D4F4E7B00BD6DB0 /* community_normal@2x.png in Resources */,
+				4E25B1041D53336100DEC859 /* 分享@3x.png in Resources */,
+				4E236EA81D4F4E7B00BD6DB0 /* mine_select@2x.png in Resources */,
+				4E236E9F1D4F4E7B00BD6DB0 /* community_normal@3x.png in Resources */,
+				4E25B1081D53336100DEC859 /* 标签.png in Resources */,
+				4E236EA21D4F4E7B00BD6DB0 /* home_normal@2x.png in Resources */,
+				4E236EA51D4F4E7B00BD6DB0 /* home_select@3x.png in Resources */,
+				4E236EA61D4F4E7B00BD6DB0 /* mine_normal@2x.png in Resources */,
+				4E236EA71D4F4E7B00BD6DB0 /* mine_normal@3x.png in Resources */,
+				4E236D811D4F103600BD6DB0 /* ReadMe.rtf in Resources */,
+				4E236EA11D4F4E7B00BD6DB0 /* community_select@3x.png in Resources */,
+				4E25B1211D53336100DEC859 /* search1.png in Resources */,
+				4E236D581D4F0FF800BD6DB0 /* Main.storyboard in Resources */,
+				4E25B1001D53336100DEC859 /* agree_p@2x.png in Resources */,
+				4E236EB21D4F4E7B00BD6DB0 /* shop_normal@2x.png in Resources */,
+				4E25B10B1D53336100DEC859 /* 评论@2x.png in Resources */,
+				4E25B1231D53336100DEC859 /* search@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E236D611D4F0FF800BD6DB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E236D6C1D4F0FF900BD6DB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E236D4B1D4F0FF800BD6DB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E25B0CE1D5332FE00DEC859 /* CBRecommedModel.swift in Sources */,
+				4E236E7F1D4F485500BD6DB0 /* MallViewController.swift in Sources */,
+				4E25B0CD1D5332FE00DEC859 /* CBMaterialModel.swift in Sources */,
+				4E25B1271D53339000DEC859 /* KTCSegmentCtrl.swift in Sources */,
+				4E236E811D4F486000BD6DB0 /* MineViewController.swift in Sources */,
+				4E236E751D4F47EF00BD6DB0 /* KTCBaseViewController.swift in Sources */,
+				4E236E771D4F480C00BD6DB0 /* KTCMainTabBarController.swift in Sources */,
+				4E25B0CF1D5332FE00DEC859 /* CBMaterialView.swift in Sources */,
+				4E236DB91D4F134C00BD6DB0 /* KTCUtil.swift in Sources */,
+				4E236D551D4F0FF800BD6DB0 /* ViewController.swift in Sources */,
+				4E25B0D01D5332FE00DEC859 /* CBRecommendView.swift in Sources */,
+				4E236D531D4F0FF800BD6DB0 /* AppDelegate.swift in Sources */,
+				4E236E7B1D4F483B00BD6DB0 /* CookbookViewController.swift in Sources */,
+				4E236DB81D4F134C00BD6DB0 /* Const.swift in Sources */,
+				4E236E7D1D4F484800BD6DB0 /* FoodclassViewController.swift in Sources */,
+				4E236E791D4F482800BD6DB0 /* CommunityViewController.swift in Sources */,
+				4E25B1261D53339000DEC859 /* KTCDownloader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E236D5F1D4F0FF800BD6DB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E236D681D4F0FF800BD6DB0 /* TestKitchen_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E236D6A1D4F0FF900BD6DB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E236D731D4F0FF900BD6DB0 /* TestKitchen_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E236D651D4F0FF800BD6DB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E236D4E1D4F0FF800BD6DB0 /* TestKitchen_Swift */;
+			targetProxy = 4E236D641D4F0FF800BD6DB0 /* PBXContainerItemProxy */;
+		};
+		4E236D701D4F0FF900BD6DB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E236D4E1D4F0FF800BD6DB0 /* TestKitchen_Swift */;
+			targetProxy = 4E236D6F1D4F0FF900BD6DB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E236D561D4F0FF800BD6DB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E236D571D4F0FF800BD6DB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E236D5B1D4F0FF800BD6DB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E236D5C1D4F0FF800BD6DB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E236D751D4F0FF900BD6DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E236D761D4F0FF900BD6DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E236D781D4F0FF900BD6DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCF162A46D75E8E75C690279 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestKitchen_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1606.TestKitchen-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4E236D791D4F0FF900BD6DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EA4F22F66A3486DA610D910 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestKitchen_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1606.TestKitchen-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4E236D7B1D4F0FF900BD6DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestKitchen_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1606.TestKitchen-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestKitchen_Swift.app/TestKitchen_Swift";
+			};
+			name = Debug;
+		};
+		4E236D7C1D4F0FF900BD6DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestKitchen_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1606.TestKitchen-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestKitchen_Swift.app/TestKitchen_Swift";
+			};
+			name = Release;
+		};
+		4E236D7E1D4F0FF900BD6DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestKitchen_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1606.TestKitchen-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestKitchen_Swift;
+			};
+			name = Debug;
+		};
+		4E236D7F1D4F0FF900BD6DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestKitchen_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1606.TestKitchen-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestKitchen_Swift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E236D4A1D4F0FF800BD6DB0 /* Build configuration list for PBXProject "TestKitchen_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E236D751D4F0FF900BD6DB0 /* Debug */,
+				4E236D761D4F0FF900BD6DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E236D771D4F0FF900BD6DB0 /* Build configuration list for PBXNativeTarget "TestKitchen_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E236D781D4F0FF900BD6DB0 /* Debug */,
+				4E236D791D4F0FF900BD6DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E236D7A1D4F0FF900BD6DB0 /* Build configuration list for PBXNativeTarget "TestKitchen_SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E236D7B1D4F0FF900BD6DB0 /* Debug */,
+				4E236D7C1D4F0FF900BD6DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E236D7D1D4F0FF900BD6DB0 /* Build configuration list for PBXNativeTarget "TestKitchen_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E236D7E1D4F0FF900BD6DB0 /* Debug */,
+				4E236D7F1D4F0FF900BD6DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E236D471D4F0FF800BD6DB0 /* Project object */;
+}

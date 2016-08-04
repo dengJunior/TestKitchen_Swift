@@ -14,11 +14,6 @@ public let kScreenW = UIScreen.mainScreen().bounds.size.width
 public let kScreenH = UIScreen.mainScreen().bounds.size.height
 
 
-//导入第三方库头文件
-import SnapKit
-
-
-
 //接口
 //一、食谱
 
